@@ -27,3 +27,7 @@ let's list down :-
         - git revert head / <CommitId> + git push (undo a push with history maintain)
     
     - git commit --amend (for correction commit message & adding new file the current commit)
+6. gitignore file
+    *.txt / <any extension> (ignore the all file of same extension)
+    !text2.txt / <FileName> (avoid ignoring only this file)
+    FolderName/
