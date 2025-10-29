@@ -1,2 +1,7 @@
 *.txt
 !important.txt
+!html.txt
+ignore/
+
+
+
