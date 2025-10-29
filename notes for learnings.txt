@@ -31,3 +31,20 @@ let's list down :-
     *.txt / <any extension> (ignore the all file of same extension)
     !text2.txt / <FileName> (avoid ignoring only this file)
     FolderName/
+7. github repository and commit on github
+8. mark-down or md file
+9. connect local and remote repository
+10. pull and push
+11. branching and merging
+12. github issues
+13. 2 way and 3 way merge
+14. merge conflict on git and github
+15. git clone (for collaboration)
+16. git fork + clone (for contribution)
+17. github pages
+
+extra learning :-
+    1. delete branch (git branch -d/-D <BranchName>)
+    2. delete pushing branch (git push origin --delete <BranchName>)
+    3. change / amend git branch name (git branch -M <BranchName>)
+    
