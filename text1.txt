@@ -3,11 +3,27 @@ here i will cover all the topics releted git and github.
 let's list down :-
 
 1. git configaration (git config --global --list, git config --global user.name "username", git config --global user.email "email")
+
 2. ssh key (generate + connect on github)
+
 3. git folder + create file/add file (git init, files like txt.,.html,.md and so on)
+
 4. git workflow (working directory/unstaging area, staging area, local repository, remote repository/github)
     - git add ./<FileName> (to add file for staiging area)
         - git rm --cached <FIleName> (for going to unstaging/untracked)
     - git commit -m "mesages" (for making a commit)
     - git push (for going to remote repository/github)
 
+5. undo all workflow of git & correction / add new file the current commit 
+    - git checkout -- <FIleName> (undo from working directory)
+    - git rm --cached <FileName> (undo from staging area to unstaging/working directory)
+        - git reset head ./<FileName> (undo from staging area to unstaging/working directory)
+    - git reset --hard head (undo from staging & unstaging area)
+    - git reset --soft head^ (undo from local repo to staging area)
+    - git reset head^ (undo from local repo to unstaging area/ working directory)
+    - git reset --hard head^ / <CommitId> (undo from current commit to previous commit)
+        - git revert head (undo current commit by maintaining history)
+    - git reset --hard head^ / <CommitId> + git push --force (undo a push)
+        - git revert head / <CommitId> + git push (undo a push with history maintain)
+    
+    - git commit --amend (for correction commit message & adding new file the current commit)
