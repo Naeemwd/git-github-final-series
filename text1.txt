@@ -1,0 +1,13 @@
+hello, this is git and github final series.
+here i will cover all the topics releted git and github.
+let's list down :-
+
+1. git configaration (git config --global --list, git config --global user.name "username", git config --global user.email "email")
+2. ssh key (generate + connect on github)
+3. git folder + create file/add file (git init, files like txt.,.html,.md and so on)
+4. git workflow (working directory/unstaging area, staging area, local repository, remote repository/github)
+    - git add ./<FileName> (to add file for staiging area)
+        - git rm --cached <FIleName> (for going to unstaging/untracked)
+    - git commit -m "mesages" (for making a commit)
+    - git push (for going to remote repository/github)
+
